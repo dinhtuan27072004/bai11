@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  font-family: "Montserrat", "Arial";
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.img {
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-slide {
+  position: relative;
+  display: inline-block;
+}
+.swiper-slide .url__large {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  z-index: 99999;
+}
+.swiper-slide .url__large .swiper-container {
+  opacity: 0;
+}
+.swiper-slide .url__large .large__item {
+  font-size: 45px;
+  color: #fff;
+  font-weight: bolder;
+}
+.swiper-slide .url__large .large__craft {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.swiper-slide .url__large .large__craft .craft__nav {
+  font-weight: bolder;
+}
+.swiper-slide .url__large .large__craft .craft__item {
+  font-weight: bolder;
+}
+.swiper-slide .url__large .large__button {
+  margin-top: 30px;
+}
+.swiper-slide .url__large .large__button .button__my {
+  background: #f4f6fb;
+  color: rgba(0, 47, 255, 0.74);
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 17px 27px;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.swiper-slide .url__large .large__button .button__my:hover {
+  background: rgba(244, 246, 251, 0);
+  color: rgb(246, 247, 250);
+  border: 3px solid #fff;
+  font-size: 16px;
+  padding: 17px 27px;
+}
+.swiper-slide .url__large .large__button .button__contact {
+  background: rgba(244, 246, 251, 0);
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  padding: 17px 37px;
+  margin-left: 20px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.swiper-slide .url__large .large__button .button__contact:hover {
+  background: #f4f6fb;
+  color: rgba(0, 47, 255, 0.659);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 17px 37px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.swiper-slide .url__large .large__card {
+  display: flex;
+  gap: 35px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.swiper-slide .swiper-img {
+  background: linear-gradient(to right, rgba(0, 47, 255, 0.821), rgba(109, 66, 240, 0.605));
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.swiper-slide .swiper__url {
+  position: relative;
+  z-index: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide .container__swiper {
+  position: relative;
+  display: inline-block;
+}
+.swiper-slide .container__swiper .url__large {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  z-index: 99999;
+}
+.swiper-slide .container__swiper .url__large .large__item {
+  font-size: 45px;
+  color: #fff;
+  font-weight: bolder;
+}
+.swiper-slide .container__swiper .url__large .large__craft {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.swiper-slide .container__swiper .url__large .large__craft .craft__nav {
+  font-weight: bolder;
+}
+.swiper-slide .container__swiper .url__large .large__craft .craft__item {
+  font-weight: bolder;
+}
+.swiper-slide .container__swiper .url__large .large__button .button__my {
+  background: #f4f6fb;
+  color: rgba(0, 47, 255, 0.74);
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 17px 27px;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.swiper-slide .container__swiper .url__large .large__button .button__my:hover {
+  background: rgba(244, 246, 251, 0);
+  color: rgb(246, 247, 250);
+  border: 3px solid #fff;
+  font-size: 16px;
+  padding: 17px 27px;
+}
+.swiper-slide .container__swiper .url__large .large__button .button__contact {
+  background: rgba(244, 246, 251, 0);
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  padding: 17px 37px;
+  margin-left: 20px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.swiper-slide .container__swiper .url__large .large__button .button__contact:hover {
+  background: #ffffff;
+  color: #2373fb;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  padding: 17px 37px;
+  margin-left: 20px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.swiper-slide .container__swiper .url__large .large__card {
+  display: flex;
+  gap: 35px;
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+.swiper-slide .container__swiper .swiper-img {
+  background: linear-gradient(to right, rgba(0, 47, 255, 0.821), rgba(109, 66, 240, 0.605));
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.swiper-slide .container__swiper .swiper__url {
+  position: relative;
+  z-index: 0;
+}
+
+.swiper-slide .container__header {
+  position: relative;
+}
+.swiper-slide .container__header .header {
+  background: linear-gradient(to right, rgba(255, 132, 66, 0.821), rgba(249, 85, 85, 0.605));
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.swiper-slide .container__header .header__large {
+  position: relative;
+  display: inline-block;
+}
+.swiper-slide .container__header .header__large .large__item {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  z-index: 99999;
+}
+.swiper-slide .container__header .header__large .large__item .item__primary {
+  padding-top: 50px;
+}
+.swiper-slide .container__header .header__large .large__item .large__center .center__nav {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #fff;
+}
+.swiper-slide .container__header .header__large .large__item .large__craft {
+  font-size: 25px;
+  padding: 20px 0;
+}
+.swiper-slide .container__header .header__large .large__item .large__button {
+  display: flex;
+  gap: 20px;
+}
+.swiper-slide .container__header .header__large .large__item .large__button .button__my {
+  font-size: 16px;
+  color: orangered;
+  padding: 20px;
+  border-radius: 50px;
+  letter-spacing: 3px;
+  border: 1px solid #fff;
+}
+.swiper-slide .container__header .header__large .large__item .large__button .button__my:hover {
+  font-size: 16px;
+  color: #fff;
+  padding: 20px;
+  border-radius: 50px;
+  letter-spacing: 3px;
+  border: 2px solid #fff;
+  background-color: rgba(244, 246, 251, 0);
+}
+.swiper-slide .container__header .header__large .large__item .large__button .button__contact {
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 50px;
+  letter-spacing: 3px;
+  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0);
+}
+.swiper-slide .container__header .header__large .large__item .large__button .button__contact:hover {
+  font-size: 16px;
+  color: orangered;
+  padding: 20px 30px;
+  border-radius: 50px;
+  letter-spacing: 3px;
+  border: 2px solid #fff;
+  background-color: #ffffff;
+}
+.swiper-slide .container__header .header__large .large__item .large__card {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+.swiper-slide .container__header .header__large .large__img {
+  position: absolute;
+  display: flex;
+}
+.swiper-slide .container__header .header__large .large__img .img__item {
+  transform: scale(0.7);
+}
+.swiper-slide .container__header .header__large .large__img .img__nav {
+  transform: scale(0.7);
+}
+.swiper-slide .container__header .header__large .large__img .img__iphone {
+  margin-left: -50%;
+}
+
+.swiper-slide .slider {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide .slider__container {
+  padding: 45px 50px 45px 50px;
+  flex: 0 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.swiper-slide .slider .slider__nav {
+  position: relative;
+  display: inline-block;
+}
+.swiper-slide .slider .slider__nav .img__nav {
+  max-width: 100%;
+  height: 100vh;
+}
+.swiper-slide .slider .slider__container {
+  top: 0;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+.swiper-slide .slider .slider__container .slider__left {
+  width: 550px;
+  height: 520px;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.swiper-slide .slider .slider__container .slider__left .left__logo {
+  margin-top: 40px;
+}
+.swiper-slide .slider .slider__container .slider__left .left__title {
+  font-size: 50px;
+  padding: 20px 0;
+  font-weight: bolder;
+  color: #fff;
+}
+.swiper-slide .slider .slider__container .slider__left .slider__text {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.swiper-slide .slider .slider__container .slider__left .btn__wrapper {
+  padding-top: 40px;
+}
+.swiper-slide .slider .slider__container .slider__left .btn__wrapper .btn__next {
+  padding: 20px;
+  border-radius: 50px;
+  letter-spacing: 2px;
+  border: 2px solid #fff;
+  color: rgba(36, 130, 70, 0.829);
+}
+.swiper-slide .slider .slider__container .slider__left .btn__wrapper .btn__next:hover {
+  padding: 20px;
+  border-radius: 50px;
+  letter-spacing: 2px;
+  border: 2px solid #fff;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+}
+.swiper-slide .slider .slider__container .slider__left .btn__wrapper .btn__more {
+  padding: 20px 35px;
+  border-radius: 50px;
+  letter-spacing: 3px;
+  border: 2px solid #fff;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 35px;
+}
+.swiper-slide .slider .slider__container .slider__left .btn__wrapper .btn__more:hover {
+  padding: 20px 35px;
+  border-radius: 50px;
+  letter-spacing: 3px;
+  border: 2px solid #fff;
+  color: rgba(36, 130, 70, 0.829);
+  background-color: #ffffff;
+}
+.swiper-slide .slider .slider__container .slider__right {
+  width: 550px;
+  height: 520px;
+}
+.swiper-slide .slider .slider__container .slider__right .img__wrapper {
+  position: relative;
+}
+.swiper-slide .slider .slider__container .slider__right .img__wrapper .img__2 {
+  position: absolute;
+  left: 300px;
+  display: flex;
+  bottom: 120px;
+  z-index: 12;
+}
+
+.swiper-slide .container__row .row__active .active__hidden {
+  position: relative;
+  width: 0;
+  height: 50%;
+  z-index: 444;
+}
+.swiper-slide .container__row .row__active .active__hidden .video-background {
+  position: absolute;
+  top: 50%;
+  min-width: 90%;
+  min-height: 90%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+.swiper-slide .container__row .row__active .active__hidden .hidden__navbar {
+  position: absolute;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding: 0 170px;
+  width: 1110px;
+  height: 652px;
+}
+.swiper-slide .container__row .row__active .active__hidden .hidden__navbar .navbar__primary {
+  width: 750px;
+  height: 330px;
+  margin-top: 80px;
+}
+.swiper-slide .container__row .row__active .active__hidden .hidden__navbar .navbar__primary .primary__Contact {
+  color: #fff;
+  font-size: 50px;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+.swiper-slide .container__row .row__active .active__hidden .hidden__navbar .navbar__primary .primary__item {
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.swiper-slide .container__row .row__active .active__hidden .hidden__navbar .navbar__primary .primary__button .button__btn {
+  color: #fff;
+  border-radius: 50px;
+  padding: 20px 30px;
+  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0);
+}
+.swiper-slide .container__row .row__active .active__hidden .hidden__navbar .navbar__primary .primary__button .button__btn:hover {
+  color: #5891ee;
+  border-radius: 50px;
+  padding: 20px 30px;
+  border: 2px solid #fff;
+  background-color: #ffffff;
+}
+.swiper-slide .container__row .row__active .active__hidden .hidden__navbar .navbar__success {
+  width: 410px;
+  height: 500px;
+  padding: 40px;
+  background: #fff;
+  text-align: center;
+}
+.swiper-slide .container__row .row__active .active__hidden .hidden__navbar .navbar__success .success__group .group__footer {
+  width: 416px;
+  height: 60px;
+}
+.swiper-slide .container__row .row__active .active__hidden .hidden__navbar .navbar__success .success__group .group__form {
+  margin-bottom: 20px;
+}
+.swiper-slide .container__row .row__active .active__hidden .hidden__navbar .navbar__success .success__alert .alert__nav {
+  background: #5891ee;
+  color: #fff;
+  font-weight: bolder;
+  border-radius: 50px;
+  padding: 10px 40%;
+  border: 1px solid #fff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgba(36, 243, 229, 0.862745098);
+}
+
+.swiper-pagination {
+  bottom: 10px;
+}
+
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.large__item,
+.large__craft,
+.large__button,
+.large__card {
+  animation: fadeInSlide 1s;
+}
+
+.large__item {
+  animation: fadeInSlide 1s forwards 0s;
+}
+
+.large__craft {
+  animation: fadeInSlide 1.2s forwards 0s;
+}
+
+.large__button {
+  animation: fadeInSlide 1.4s forwards 0s;
+}
+
+.large__card {
+  animation: fadeInSlide 1.6s forwards 0s;
+}/*# sourceMappingURL=index.css.map */
